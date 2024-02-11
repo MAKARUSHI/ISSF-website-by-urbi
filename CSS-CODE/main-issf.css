@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(28, 161, 208);
+}
+
+img.issf_logo_black_white {
+    width: 32px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+img.main_issf_img {
+    margin-top: 0px;
+    width: 100%;
+}
+
+img.latest_news_img_0000 {
+    position: absolute;
+    width: 280px;
+    margin: -190px 0 0 0;
+}
+
+img.latest_news_img_0001 {
+    position: absolute;
+    width: 280px;
+    margin: 9px 0 200px;
+}
+
+img.follow_icons_style {
+    width: 30px;
+    margin-left: -5px;
+}
+
+
+img.follow_facebook {
+    position: absolute;
+    margin-top: -20px; 
+}
+
+img.follow_twitter {
+    position: absolute;
+    margin-top: 25px;
+}
+
+img.follow_youtube {
+    position: absolute;
+    margin-top: 69px; 
+}
+img.follow_livestream {
+    position: absolute;
+    margin-top: 114px; 
+}
+img.follow_instagram {
+    position: absolute;
+    margin-top: 157px; 
+}
+img.follow_youku {
+    position: absolute;
+    margin-top: 198px; 
+}
+
+span.follow_icons_style {
+    position: absolute;
+    background-color: rgb(200, 234, 234);
+    padding: 25px 30px 233px 10px 
+}
+
+
+div.main_container {
+    max-width: 1030px;
+    margin: auto;
+}
+
+span.latest_news_style {
+    position: absolute;
+    margin: 330px 0px 0 -1030px;
+    padding: 200px 696px 210px 6px;
+    background-color: rgb(200, 234, 234);
+    z-index: 1000; /* Ensure dropdown is above other content */
+}
+
+pre.latest_news_title_style_0000 {
+    position: absolute;
+    margin: -180px 0 0 284px;
+    font-size: 14px;
+    color: rgb(19, 71, 168);
+    font-weight: bold;
+}
+
+pre.latest_news_text_style_0000 {
+    position: absolute;
+    margin: -140px 0 0 284px;
+    font-size: 13px;
+}
+
+pre.latest_news_title_style_0001 {
+    position: absolute;
+    margin: 15px 0 0 284px;
+    font-size: 14px;
+    color: rgb(19, 71, 168);
+    font-weight: bold;
+}
+
+pre.latest_news_text_style_0001 {
+    position: absolute;
+    margin: 55px 0 0 284px;
+    font-size: 13px;
+}
+
+hr.navbar_line {
+    margin: 5px 0 0 -20px;
+    width: 108.4%;
+}
+
+ul.main_navigatebar {
+    margin-top: -10px;
+    background-color: #FFF;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+a.main_navigatebar_text {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: -25px -5px 0px 0px;
+    padding: 9px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    font-size: 17px;
+    font-family: Arial;
+}
+
+ul.navbar_dropdown {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -10px;
+    background-color: #FFF;
+    width: 69.4%;
+    padding: 0 62px 15px 20px;
+    display: none;
+    list-style: none;
+    z-index: 1001; /* Ensure dropdown is above other content */
+}
+
+li.navbar_dropdown_text,
+a.navbar_link {
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+    list-style: none;
+    font-family: Arial;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.main_navigatebar_text:hover + ul.navbar_dropdown {
+    display: block;
+}
+
+ul.navbar_dropdown:hover,
+ul {
+    display: block;
+}
+
+p.latest_news {
+    margin: 6px 0 0 0;
+    position: absolute;
+    padding: 5px 530px 5px 9px;
+    background-color: rgb(43, 70, 164);
+    font-weight: bold;
+}
+
+p.main_text_style {
+    margin: 10px 0 0 0;
+    font-family: Arial;
+    color: white;
+    font-size: 23px;
+}
