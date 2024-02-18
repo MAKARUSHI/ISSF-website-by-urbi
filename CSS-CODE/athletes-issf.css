@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(28, 161, 208);
+}
+
+img.issf_logo_black_white {
+    width: 32px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+img.main_issf_img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+img.follow_icons_style {
+    width: 30px;
+    margin-left: -5px;
+}
+
+
+img.follow_facebook {
+    position: absolute;
+    margin-top: -20px; 
+}
+
+img.follow_twitter {
+    position: absolute;
+    margin-top: 25px;
+}
+
+img.follow_youtube {
+    position: absolute;
+    margin-top: 69px; 
+}
+img.follow_livestream {
+    position: absolute;
+    margin-top: 114px; 
+}
+img.follow_instagram {
+    position: absolute;
+    margin-top: 157px; 
+}
+img.follow_youku {
+    position: absolute;
+    margin-top: 198px; 
+}
+
+span.follow_icons_style {
+    position: absolute;
+    right: 0;
+    margin: -270px 128px 0 0px;
+    background-color: rgb(200, 234, 234);
+    padding: 25px 30px 233px 10px 
+}
+
+
+div.main_container {
+    max-width: 1030px;
+    margin: auto;
+}
+
+hr.navbar_line {
+    margin: 5px 0 0 -20px;
+    width: 1028px;
+}
+
+ul.main_navigatebar {
+    margin-top: -10px;
+    background-color: #FFF;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+a.main_navigatebar_text {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: -25px -5px 0px 0px;
+    padding: 9px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    font-size: 17px;
+    font-family: Arial;
+}
+
+ul.navbar_dropdown {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -10px;
+    background-color: #FFF;
+    width: 958px;
+    padding: 0 52px 15px 20px;
+    display: none;
+    list-style: none;
+    z-index: 1001; 
+}
+
+li.navbar_dropdown_text,
+a.navbar_link {
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+    list-style: none;
+    font-family: Arial;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.main_navigatebar_text:hover + ul.navbar_dropdown {
+    display: block;
+}
+
+ul.navbar_dropdown:hover,
+ul {
+    display: block;
+}
+
+
+span.issf_athletes_title {
+    font-size: 26px;
+    color: #FFF;
+    font-family: arial;
+    font-weight: bold;
+    padding: 5px 480px 5px 5px;
+    background-color: rgb(170, 41, 45);
+}
+
+div.issf_athletes_style {
+    background-color: rgb(200, 234, 234);
+    padding: 5px;
+}
+
+div.athletes_text_background {
+    margin: -20px 0 0 0;
+    background-color: #FFF;
+
+
+}
+
+
+
+
+#searchResults {
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchResults li {
+    cursor: pointer;
+    padding: 5px;
+}
+
+#searchResults li:hover {
+    background-color: lightgray;
+}

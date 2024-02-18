@@ -9,21 +9,26 @@ img.issf_logo_black_white {
 }
 
 img.main_issf_img {
-    margin-top: 0px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
+
 img.latest_news_img_0000 {
-    position: absolute;
-    width: 280px;
-    margin: -190px 0 0 0;
+    width: 230px;
+    margin: -1900px 0 0 0;
+    background-color: #FFF;
+    padding: 0 367px 0 0;
 }
 
 img.latest_news_img_0001 {
-    position: absolute;
-    width: 280px;
-    margin: 9px 0 200px;
+    width: 230px;
+    margin: 16px 0 0 0;
+    z-index: 1001;
+    background-color: #FFF;
+    padding: 0 367px 0 0;
 }
+
 
 img.follow_icons_style {
     width: 30px;
@@ -58,8 +63,22 @@ img.follow_youku {
     margin-top: 198px; 
 }
 
+img.latest_galleries_img_0000_style {
+    margin: px 5px 0 0;
+    width: 295px;
+    background-color: #FFF;
+    padding: 5px 305px 100px 5px;
+}
+
+img.latest_galleries_img_0001_style {
+    position: absolute;
+    margin: 73px 0px 0 0;
+    width: 295px;
+}
+
 span.follow_icons_style {
     position: absolute;
+    margin: -287px 0 0 1030px;
     background-color: rgb(200, 234, 234);
     padding: 25px 30px 233px 10px 
 }
@@ -70,45 +89,96 @@ div.main_container {
     margin: auto;
 }
 
-span.latest_news_style {
-    position: absolute;
-    margin: 330px 0px 0 -1030px;
-    padding: 200px 696px 210px 6px;
+div.latest_news_style {
+    width: 100px;
+    margin: 0 0px 0px 0px;
+    padding: 150px 500px 113px 5px;
     background-color: rgb(200, 234, 234);
-    z-index: 1000; /* Ensure dropdown is above other content */
+    z-index: 1000; 
+}
+
+span.latest_news_title {
+    margin: 7px 0 0 0;
+    padding: 5px 417px 0px 5px;
+    background-color: rgb(43, 70, 164);
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.main_text_style {
+    margin: 0 0 0 0;
+    font-family: Arial;
+    color: white;
+    font-size: 23px;
 }
 
 pre.latest_news_title_style_0000 {
-    position: absolute;
-    margin: -180px 0 0 284px;
-    font-size: 14px;
+    margin: -155px 0px 0px 236px;
+    font-size: 12px;
     color: rgb(19, 71, 168);
     font-weight: bold;
 }
 
 pre.latest_news_text_style_0000 {
-    position: absolute;
-    margin: -140px 0 0 284px;
-    font-size: 13px;
+    margin: 0px 0 0 236px;
+    font-size: 12px;
 }
 
 pre.latest_news_title_style_0001 {
-    position: absolute;
-    margin: 15px 0 0 284px;
-    font-size: 14px;
+    margin: -150px 0 0 236px;
+    font-size: 12px;
     color: rgb(19, 71, 168);
     font-weight: bold;
 }
 
 pre.latest_news_text_style_0001 {
+    margin: 0px 0 0 236px;
+    font-size: 10px;
+}
+
+span.next_events_title {
     position: absolute;
-    margin: 55px 0 0 284px;
-    font-size: 13px;
+    margin: -364px 0 0 619px;
+    padding: 5px 227px 5px 5px;
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(240, 99, 21);
+}
+
+div.next_events_style {
+    position: absolute;
+    margin: -324px 0 0 619.5px;
+    padding: 7px -70px 00px 0;
+    background-color: rgb(200, 234, 234);
+}
+
+div.next_events_subtitle {
+    padding: 5px 14px 5px 5px;
+    background-color: #fff;
+    color: rgb(240, 99, 21);
+    font-weight: bold;
+    font-family: arial;
+}
+
+div.next_events_text {
+    background-color: #FFF;
+    padding: 5px 0 5px 5px;
+    font-size: 14px;
+}
+
+p.next_event_date {
+    margin: 2px 0 2px 7px;
+    font-family: arial;
+    font-size: 10px;
 }
 
 hr.navbar_line {
     margin: 5px 0 0 -20px;
-    width: 108.4%;
+    width: 1028px;
 }
 
 ul.main_navigatebar {
@@ -136,11 +206,11 @@ ul.navbar_dropdown {
     margin-top: 0px;
     margin-left: -10px;
     background-color: #FFF;
-    width: 69.4%;
-    padding: 0 62px 15px 20px;
+    width: 958px;
+    padding: 0 52px 15px 20px;
     display: none;
     list-style: none;
-    z-index: 1001; /* Ensure dropdown is above other content */
+    z-index: 1001; 
 }
 
 li.navbar_dropdown_text,
@@ -163,17 +233,74 @@ ul {
     display: block;
 }
 
-p.latest_news {
-    margin: 6px 0 0 0;
+
+span.latest_results_title {
     position: absolute;
-    padding: 5px 530px 5px 9px;
-    background-color: rgb(43, 70, 164);
+    margin: -100px 0 0 619px;
+    padding: 5px 183px 5px 5px;
+    font-size: 26px;
+    font-family: arial;
     font-weight: bold;
+    color:#FFF;
+    background-color: rgb(240, 99, 21);
 }
 
-p.main_text_style {
-    margin: 10px 0 0 0;
-    font-family: Arial;
-    color: white;
-    font-size: 23px;
+div.latest_results_style {
+    position: absolute;
+    margin: -60px 0 0 619px;
+    padding: 7px -70px 00px 0;
+    background-color: rgb(200, 234, 234);
+}
+
+div.latest_results_subtitle {
+    padding: 5px 14px 5px 5px;
+    background-color: #fff;
+    color: rgb(240, 99, 21);
+    font-weight: bold;
+    font-family: arial;
+}
+
+div.latest_results_text {
+    margin: 3px 0 0 0;
+    font-size: 14px;
+    background-color: #FFF;
+    padding: 10px 20px 10px 3px;
+}
+
+span.latest_galleries_title {
+    position: absolute;
+    margin: 18px 0 0 0;
+    color: #FFF;
+    background-color: rgb(64, 151, 42);
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+    padding: 7px 340px 7px  10px;
+}
+
+div.latest_galleries_style {
+    text-align: center;
+    margin: 100px 0px 0 0;
+    background-color: rgb(200, 234, 234);
+    padding: 0px 0px 0px 0px;
+    width: 606px;
+    height: 50px;
+   
+}
+
+p.latest_galleries_text_img_0000 {
+    margin: -92px 0 -600px 0px;
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+    
+    
+    
+}
+
+p.latest_galleries_text_img_0001 {
+    color: rgb(44, 44, 44);
+    font-size: 14px;
+    
+   
+    
 }
