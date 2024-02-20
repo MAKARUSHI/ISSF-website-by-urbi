@@ -1,0 +1,311 @@
+body {
+    background-color: rgb(28, 161, 208);
+}
+
+img.issf_logo_black_white {
+    width: 32px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+img.main_issf_img {
+    margin-bottom: 20px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+img.follow_icons_style {
+    width: 30px;
+    margin-left: -5px;
+}
+
+
+img.follow_facebook {
+    position: absolute;
+    margin-top: -20px; 
+}
+
+img.follow_twitter {
+    position: absolute;
+    margin-top: 25px;
+}
+
+img.follow_youtube {
+    position: absolute;
+    margin-top: 69px; 
+}
+img.follow_livestream {
+    position: absolute;
+    margin-top: 114px; 
+}
+img.follow_instagram {
+    position: absolute;
+    margin-top: 157px; 
+}
+img.follow_youku {
+    position: absolute;
+    margin-top: 198px; 
+}
+
+span.follow_icons_style {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    background-color: rgb(200, 234, 234);
+    padding: 25px 30px 233px 10px 
+}
+
+
+div.main_container {
+    max-width: 1030px;
+    margin: auto;
+}
+
+hr.navbar_line {
+    margin: 5px 0 0 -20px;
+    width: 107.5%;
+}
+
+ul.main_navigatebar {
+    margin-top: -10px;
+    background-color: #FFF;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+a.main_navigatebar_text {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: -25px -5px 0px 0px;
+    padding: 9px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    font-size: 17px;
+    font-family: Arial;
+}
+
+ul.navbar_dropdown {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -10px;
+    background-color: #FFF;
+    width: 62.4%;
+    padding: 0 169px 15px 20px;
+    display: none;
+    list-style: none;
+    z-index: 1001; 
+}
+
+li.navbar_dropdown_text,
+a.navbar_link {
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+    list-style: none;
+    font-family: Arial;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.main_navigatebar_text:hover + ul.navbar_dropdown {
+    display: block;
+}
+
+ul.navbar_dropdown:hover,
+ul {
+    display: block;
+}
+
+
+
+
+span.follow_icons_style {
+    position: absolute;
+    margin: -287px 0 0 1030px;
+    background-color: rgb(200, 234, 234);
+    padding: 25px 30px 233px 10px 
+}
+
+span.the_issf_contact_title {
+    color:#FFF;
+    background-color: rgb(82, 82, 82);
+    padding: 5px 908px 5px 5px;
+    font-size: 26px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+div.the_issf_out_style {
+    background-color: rgb(200, 234, 234);
+    padding: 5px 5px 5px 5px;
+}
+
+div.the_issf_style {
+    margin: 6px 0 0 2px;
+    background-color: #FFF;
+    width: 1016px;
+    height: 170px;
+}
+
+p.the_issf_contact_subtitle_style {
+    position: absolute;
+    margin: 15px 0 0 11px;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+pre.the_issf_contact_text {
+    position: absolute;
+    margin: 49px 0 0 11px;
+    font-family: arial;
+    font-size: 12px;
+}
+
+a.issf_contact_email {
+
+}
+
+div.issf_partners_style {
+    background-color: rgb(172, 172, 172);
+}
+
+img.partner_img_style_row1:hover, img.partner_img_style_row2:hover {
+    filter: grayscale(0%);
+}
+
+img.partner_img_style_row1 {
+    margin: 0% 3%;
+    width: 10%;
+}
+
+img.partner_img_style_row2 {
+    margin: 5% 0px 0 0;
+    width: 10%;
+}
+
+img.partner_issf_style {
+    margin: 40px 0 0 55px;
+    width: 100x;
+    filter: grayscale(100%);
+}
+
+img.partner_international_olympic_committee_style {
+    margin: 40px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_anti-doping_agency_style {
+    position: absolute;
+    margin: 70px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_olympic1_style {
+    margin: 40px 0 0 200px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_olympic2_style {
+    margin: 40px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_world_shooting_para_sport_style {
+    position: absolute;
+    margin: 70px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_laporte_style {
+    margin: 20px 0 40px 170px;
+    width: 100px;
+    filter: grayscale(100%);
+
+}
+
+img.partner_promatic_style {
+    margin: 20px 0 40px 170px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_eurotarget_style {
+    margin: 20px 0 40px 170px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+p.ISSF_partners_text {
+    margin-left: 400px;
+   color: rgb(42, 42, 42); 
+   font-size: 30px;
+   font-family: arial;
+}
+
+div.bottom_navigationbar_style {
+    background-color: rgb(215, 215, 215);
+    padding: 15px 20px 50px 40px;
+}
+
+h5.bottom_navigationbar_main_text {
+    margin: 0px 0 0 0px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+}
+
+a.bottom_navigationbar_text {
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color:rgb(56, 56, 56);
+    font-family: arial;
+    font-size: 12px;
+}
+
+div.bottom_navigationbar_divs {
+    vertical-align: top;
+    display: inline-block;
+    margin: 19px 56px 0 10px;
+    
+}
+
+p.contact_bottom_text {
+    margin-top: 35px;
+    color: rgb(91, 91, 91);
+    font-family: arial;
+    font-size: 12px;
+
+}
+
+
+img.contact_page_follow_facebook {
+    position: absolute;
+    margin: -5px 0 0 607px;
+    width: 35px;
+}
+
+img.contact_page_follow_twitter {
+    position: absolute;
+    margin: -15px 0 0 650px;
+    width: 57px;
+}
+
+img.contact_page_follow_instagram {
+    position: absolute;
+    margin: -4px 0 0 715px;
+    width: 35px;
+}
+
+img.contact_page_follow_facebook_img {
+    position: absolute;
+    margin: 0 0 0 770px;
+    width: 140px;
+}
