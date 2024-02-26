@@ -62,7 +62,7 @@ div.main_container {
 
 hr.navbar_line {
     margin: 5px 0 0 -20px;
-    width: 122.2%;
+    width: 108.4%;
 }
 
 ul.main_navigatebar {
@@ -91,7 +91,7 @@ ul.navbar_dropdown {
     margin-left: -10px;
     background-color: #FFF;
     width: 62.4%;
-    padding: 0 169px 15px 20px;
+    padding: 0 62px 15px 20px;
     display: none;
     list-style: none;
     z-index: 1001; 
@@ -130,7 +130,7 @@ span.follow_icons_style {
 span.the_issf_contact_title {
     color:#FFF;
     background-color: rgb(82, 82, 82);
-    padding: 5px 908px 5px 5px;
+    padding: 5px 907.5px 5px 5px;
     font-size: 26px;
     font-family: arial;
     font-weight: bold;
@@ -163,9 +163,7 @@ pre.the_issf_contact_text {
     font-size: 12px;
 }
 
-a.issf_contact_email {
 
-}
 
 div.issf_partners_style {
     background-color: rgb(172, 172, 172);
@@ -224,20 +222,22 @@ img.partner_world_shooting_para_sport_style {
 }
 
 img.partner_laporte_style {
-    margin: 20px 0 40px 170px;
+    position: absolute;
+    margin: 40px 0 40px 170px;
     width: 100px;
     filter: grayscale(100%);
 
 }
 
 img.partner_promatic_style {
-    margin: 20px 0 40px 170px;
+    margin: 7px 0 40px 445px;
     width: 100px;
     filter: grayscale(100%);
 }
 
 img.partner_eurotarget_style {
-    margin: 20px 0 40px 170px;
+    position: absolute;
+    margin: 30px 0 40px 170px;
     width: 100px;
     filter: grayscale(100%);
 }

@@ -1,54 +1,73 @@
-const mysql = require('mysql');
-const readline = require('readline');
+// Event listener setup
+document.addEventListener("DOMContentLoaded", function() {
 
-// Create a connection to the MySQL database
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'MAKRUSHIsdatabase',
-  database: 'YourDatabaseName' // Replace 'YourDatabaseName' with the actual name of your database
-});
-
-// Connect to the database
-connection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to MySQL database: ', err);
-    return;
-  }
-  console.log('Connected to MySQL database');
-});
-
-// Create readline interface for user input
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
-
-// Prompt the user for a search query
-rl.question('Enter search query: ', (query) => {
-  // Perform a query
-  const sql = `SELECT * FROM issf_athletes WHERE FIRST_NAME LIKE '%${query}%'`;
-  connection.query(sql, (err, results, fields) => {
-    if (err) {
-      console.error('Error executing query: ', err);
-      return;
+    // Function to handle search
+    function search() {
+        var searchTerm = document.getElementById("searchInput").value.trim().toLowerCase();
+        var searchResults = [];
+        
+        if (searchTerm !== "") {
+            searchResults = users.filter(function(user) {
+                // Concatenate name and surname for searching
+                var fullName = user.name.toLowerCase() + " " + user.surname.toLowerCase();
+                // Check if each letter in the search term is found consecutively
+                var index = 0;
+                for (var i = 0; i < fullName.length && index < searchTerm.length; i++) {
+                    if (fullName[i] === searchTerm[index]) {
+                        index++;
+                    }
+                }
+                // If all letters in the search term are found consecutively, return true
+                return index === searchTerm.length;
+            });
+        }
+        
+        displayResults(searchResults);
     }
-    console.log('Query results: ', results);
-    // Close the connection
-    connection.end((err) => {
-      if (err) {
-        console.error('Error closing connection: ', err);
-        return;
-      }
-      console.log('Connection closed');
+  
+    // Function to display search results
+    function displayResults(results) {
+        var searchResultsContainer = document.getElementById("searchResults");
+        searchResultsContainer.innerHTML = "";
+        
+        if (results.length === 0) {
+            searchResultsContainer.innerHTML = "0 results (0.000 seconds)";
+        } else {
+            var countElement = document.createElement("div");
+            countElement.textContent = "Found " + results.length + " results.";
+            searchResultsContainer.appendChild(countElement);
+            
+            results.forEach(function(result) {
+                var resultElement = document.createElement("div");
+                
+                // Create an <img> element for the athlete's image
+                var imgElement = document.createElement("img");
+                imgElement.src = result.athlete_img;
+                imgElement.alt = result.name + " " + result.surname; // Set alt attribute for accessibility
+                imgElement.style.width = "100px"; // Adjust image width
+                
+                // Append the <img> element to the result element
+                resultElement.appendChild(imgElement);
+                
+                // Add other athlete details
+                resultElement.textContent += result.surname + " " + result.name + " (" + result.nationality + ")";
+                resultElement.addEventListener("click", function() {
+                    // Redirect to a different page with the athlete's ID as a query parameter
+                    window.location.href = "athlete_details.html?id=" + result.id;
+                });
+                
+                searchResultsContainer.appendChild(resultElement);
+            });
+        }
+    }
+  
+    // Add event listeners
+    document.getElementById("searchButton").addEventListener("click", search); // Trigger search on button click
+  
+    document.getElementById("searchInput").addEventListener("keydown", function(event) {
+        if (event.keyCode === 13) {
+            search();
+        }
     });
-    // Close readline interface
-    rl.close();
   });
-});
-
-// Handle readline close event
-rl.on('close', () => {
-  console.log('Exiting...');
-  process.exit(0);
-});
+  

@@ -169,3 +169,153 @@ span.follow_icons_style {
     background-color: rgb(200, 234, 234);
     padding: 25px 30px 233px 10px 
 }
+
+
+/*bottom navigation bar
+bottom navigation bar*/
+
+div.issf_partners_style {
+    margin: 300px 0 0 0;
+    background-color: rgb(172, 172, 172);
+}
+
+img.partner_img_style_row1:hover, img.partner_img_style_row2:hover {
+    filter: grayscale(0%);
+}
+
+img.partner_img_style_row1 {
+    margin: 0% 3%;
+    width: 10%;
+}
+
+img.partner_img_style_row2 {
+    margin: 5% 0px 0 0;
+    width: 10%;
+}
+
+img.partner_issf_style {
+    margin: 40px 0 0 55px;
+    width: 100x;
+    filter: grayscale(100%);
+}
+
+img.partner_international_olympic_committee_style {
+    margin: 40px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_anti-doping_agency_style {
+    position: absolute;
+    margin: 70px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_olympic1_style {
+    margin: 40px 0 0 200px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_olympic2_style {
+    margin: 40px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_world_shooting_para_sport_style {
+    position: absolute;
+    margin: 70px 0 0 55px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_laporte_style {
+    position: absolute;
+    margin: 40px 0 40px 170px;
+    width: 100px;
+    filter: grayscale(100%);
+
+}
+
+img.partner_promatic_style {
+    margin: 7px 0 40px 445px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+img.partner_eurotarget_style {
+    position: absolute;
+    margin: 30px 0 40px 170px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+
+p.ISSF_partners_text {
+    margin-left: 400px;
+   color: rgb(42, 42, 42); 
+   font-size: 30px;
+   font-family: arial;
+}
+
+div.bottom_navigationbar_style {
+    background-color: rgb(215, 215, 215);
+    padding: 15px 20px 50px 40px;
+}
+
+h5.bottom_navigationbar_main_text {
+    margin: 0px 0 0 0px;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    color: rgb(52, 52, 52);
+}
+
+a.bottom_navigationbar_text {
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color:rgb(56, 56, 56);
+    font-family: arial;
+    font-size: 12px;
+}
+
+div.bottom_navigationbar_divs {
+    vertical-align: top;
+    display: inline-block;
+    margin: 19px 56px 0 10px;
+    
+}
+
+p.contact_bottom_text {
+    margin-top: 35px;
+    color: rgb(91, 91, 91);
+    font-family: arial;
+    font-size: 12px;
+
+}
+
+
+img.contact_page_follow_facebook {
+    position: absolute;
+    margin: -5px 0 0 607px;
+    width: 35px;
+}
+
+img.contact_page_follow_twitter {
+    position: absolute;
+    margin: -15px 0 0 650px;
+    width: 57px;
+}
+
+img.contact_page_follow_instagram {
+    position: absolute;
+    margin: -4px 0 0 715px;
+    width: 35px;
+}
+
+img.contact_page_follow_facebook_img {
+    position: absolute;
+    margin: 0 0 0 770px;
+    width: 140px;
+}

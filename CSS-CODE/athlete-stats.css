@@ -9,24 +9,111 @@ img.issf_logo_black_white {
 }
 
 img.main_issf_img {
-    margin-bottom: 10px;
+    margin: 0px 0 15px 0;
     width: 100%;
 }
 
-
-img.latest_news_img_0000 {
-    width: 230px;
-    margin: -1900px 0 0 0;
-    background-color: #FFF;
-    padding: 0 367px 0 0;
+img.follow_icons_style {
+    width: 30px;
+    margin-left: -5px;
 }
 
-img.latest_news_img_0001 {
-    width: 230px;
-    margin: 16px 0 0 0;
-    z-index: 1001;
+
+img.follow_facebook {
+    position: absolute;
+    margin-top: -20px; 
+}
+
+img.follow_twitter {
+    position: absolute;
+    margin-top: 25px;
+}
+
+img.follow_youtube {
+    position: absolute;
+    margin-top: 69px; 
+}
+img.follow_livestream {
+    position: absolute;
+    margin-top: 114px; 
+}
+img.follow_instagram {
+    position: absolute;
+    margin-top: 157px; 
+}
+img.follow_youku {
+    position: absolute;
+    margin-top: 198px; 
+}
+
+span.follow_icons_style {
+    position: absolute;
+    margin: 0px 0 0 0px;
+    background-color: rgb(200, 234, 234);
+    padding: 25px 30px 233px 10px 
+}
+
+
+div.main_container {
+    max-width: 1030px;
+    margin: auto;
+}
+
+hr.navbar_line {
+    margin: 5px 0 0 -20px;
+    width: 107.5%;
+}
+
+ul.main_navigatebar {
+    margin-top: -10px;
     background-color: #FFF;
-    padding: 0 367px 0 0;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+a.main_navigatebar_text {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: -25px -5px 0px 0px;
+    padding: 9px 15px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    font-size: 17px;
+    font-family: Arial;
+}
+
+ul.navbar_dropdown {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -10px;
+    background-color: #FFF;
+    width: 62.4%;
+    padding: 0 52px 15px 20px;
+    display: none;
+    list-style: none;
+    z-index: 1001; 
+}
+
+li.navbar_dropdown_text,
+a.navbar_link {
+    position: relative;
+    left: 0;
+    margin-top: 10px;
+    list-style: none;
+    font-family: Arial;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+
+.main_navigatebar_text:hover + ul.navbar_dropdown {
+    display: block;
+}
+
+ul.navbar_dropdown:hover,
+ul {
+    display: block;
 }
 
 
@@ -84,227 +171,47 @@ span.follow_icons_style {
 }
 
 
-div.main_container {
-    max-width: 1030px;
-    margin: auto;
-}
-
-div.latest_news_style {
-    width: 100px;
-    margin: 0 0px 0px 0px;
-    padding: 150px 500px 113px 5px;
-    background-color: rgb(200, 234, 234);
-    z-index: 1000; 
-}
-
-span.latest_news_title {
-    margin: 7px 0 0 0;
-    padding: 5px 417px 0px 5px;
-    background-color: rgb(43, 70, 164);
-    font-weight: bold;
-    font-size: 26px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p.main_text_style {
+span.issf_athlete_stats {
     margin: 0 0 0 0;
-    font-family: Arial;
-    color: white;
-    font-size: 23px;
-}
-
-pre.latest_news_title_style_0000 {
-    margin: -155px 0px 0px 236px;
-    font-size: 12px;
-    color: rgb(19, 71, 168);
-    font-weight: bold;
-}
-
-pre.latest_news_text_style_0000 {
-    margin: 0px 0 0 236px;
-    font-size: 12px;
-}
-
-pre.latest_news_title_style_0001 {
-    margin: -150px 0 0 236px;
-    font-size: 12px;
-    color: rgb(19, 71, 168);
-    font-weight: bold;
-}
-
-pre.latest_news_text_style_0001 {
-    margin: 0px 0 0 236px;
-    font-size: 10px;
-}
-
-span.next_events_title {
-    position: absolute;
-    margin: -364px 0 0 619px;
-    padding: 5px 227px 5px 5px;
-    font-size: 26px;
+    background-color: rgb(175, 45, 50);
+    padding: 7px 385px 6px 7px;
+    font-size: 24px;
     font-family: arial;
-    font-weight: bold;
-    color: white;
-    background-color: rgb(240, 99, 21);
-}
-
-div.next_events_style {
-    position: absolute;
-    margin: -324px 0 0 619.5px;
-    padding: 7px -70px 00px 0;
-    background-color: rgb(200, 234, 234);
-}
-
-div.next_events_subtitle {
-    padding: 5px 14px 5px 5px;
-    background-color: #fff;
-    color: rgb(240, 99, 21);
-    font-weight: bold;
-    font-family: arial;
-}
-
-div.next_events_text {
-    background-color: #FFF;
-    padding: 5px 0 5px 5px;
-    font-size: 14px;
-}
-
-p.next_event_date {
-    margin: 2px 0 2px 7px;
-    font-family: arial;
-    font-size: 10px;
-}
-
-hr.navbar_line {
-    margin: 5px 0 0 -20px;
-    width: 1028px;
-}
-
-ul.main_navigatebar {
-    margin-top: -10px;
-    background-color: #FFF;
-    padding: 0px 10px;
-    margin-bottom: 0px;
-}
-
-a.main_navigatebar_text {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    margin: -25px -5px 0px 0px;
-    padding: 9px 15px;
-    list-style: none;
-    text-decoration: none;
-    color: rgb(117, 114, 114);
-    font-size: 17px;
-    font-family: Arial;
-}
-
-ul.navbar_dropdown {
-    position: absolute;
-    margin-top: 0px;
-    margin-left: -10px;
-    background-color: #FFF;
-    width: 958px;
-    padding: 0 52px 15px 20px;
-    display: none;
-    list-style: none;
-    z-index: 1001; 
-}
-
-li.navbar_dropdown_text,
-a.navbar_link {
-    position: relative;
-    left: 0;
-    margin-top: 10px;
-    list-style: none;
-    font-family: Arial;
-    color: rgb(87, 87, 87);
-    text-decoration: none;
-}
-
-.main_navigatebar_text:hover + ul.navbar_dropdown {
-    display: block;
-}
-
-ul.navbar_dropdown:hover,
-ul {
-    display: block;
-}
-
-
-span.latest_results_title {
-    position: absolute;
-    margin: -90px 0 0 619px;
-    padding: 5px 183px 5px 5px;
-    font-size: 26px;
-    font-family: arial;
-    font-weight: bold;
-    color:#FFF;
-    background-color: rgb(240, 99, 21);
-}
-
-div.latest_results_style {
-    position: absolute;
-    margin: -50px 0 0 619px;
-    padding: 7px -70px 00px 0;
-    background-color: rgb(200, 234, 234);
-}
-
-div.latest_results_subtitle {
-    padding: 5px 14px 5px 5px;
-    background-color: #fff;
-    color: rgb(240, 99, 21);
-    font-weight: bold;
-    font-family: arial;
-}
-
-div.latest_results_text {
-    margin: 3px 0 0 0;
-    font-size: 14px;
-    background-color: #FFF;
-    padding: 10px 20px 10px 3px;
-}
-
-span.latest_galleries_title {
-    position: absolute;
-    margin: 18px 0 0 0;
     color: #FFF;
-    background-color: rgb(64, 151, 42);
-    font-size: 26px;
+}
+
+span.search_new_athlete {
+    margin: 0 0 -5px -10px;
+    background-color: rgb(175, 45, 50);
+    padding: 16px 5px 8px 5px;
+    font-size: 14px;
     font-family: arial;
-    font-weight: bold;
-    padding: 7px 340px 7px  10px;
+    color: #FFF;
 }
 
-div.latest_galleries_style {
-    text-align: center;
-    margin: 100px 0px 0 0;
+a.search_new_athlete_link {
+    text-decoration: none;
+}
+
+div.athlete_stats_div_out {
     background-color: rgb(200, 234, 234);
-    padding: 0px 0px 0px 0px;
-    width: 606px;
-    height: 50px;
-   
 }
 
-p.latest_galleries_text_img_0000 {
-    margin: -92px 0 -600px 0px;
-    color: rgb(44, 44, 44);
-    font-size: 14px;
-    
-    
-    
+div.athlete_stats_div_in {
+    background-color: #FFF;
 }
 
-p.latest_galleries_text_img_0001 {
-    color: rgb(44, 44, 44);
-    font-size: 14px;
+img.athlete_profile_img {
+    width: 100px
+}
+
+span.athlete_stats {
+    font-size: 200px;
 }
 
 
-/*bottom navigation bar*/
-/*bottom navigation bar*/
+/*bottom navigation bar
+bottom navigation bar*/
 
 div.issf_partners_style {
     margin: 800px 0 0 0;
