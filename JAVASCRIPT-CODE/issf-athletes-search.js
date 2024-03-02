@@ -50,11 +50,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 resultElement.appendChild(imgElement);
                 
                 // Add other athlete details
-                resultElement.textContent += result.surname + " " + result.name + " (" + result.nationality + ")";
-                resultElement.addEventListener("click", function() {ff
+                var nameElement = document.createElement("a");
+                nameElement.textContent += result.surname + " " + result.name + " (" + result.nationality + ")";
+                nameElement.addEventListener("click", function() {
                     // Redirect to a different page with the athlete's ID as a query parameter
-                    window.location.href = "athlete_details.html?id=" + result.id;
+                    window.location.href = "athlete-stats.html?id=" + result.athlete_id;
                 });
+                resultElement.appendChild(nameElement);
                 
                 searchResultsContainer.appendChild(resultElement);
             });

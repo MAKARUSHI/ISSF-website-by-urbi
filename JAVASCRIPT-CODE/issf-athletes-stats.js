@@ -1,5 +1,6 @@
 var users = [
     {  
+        athlete_id: "1",
         name: "Manja", 
         surname: "SLAK", 
         age: "17 years 10 months 4 days", 
@@ -11,6 +12,7 @@ var users = [
         athlete_img: "../IMAGES/ATHLETES-IMGS/issf-athlete-manja-slak.jfif"
     },
     {  
+        athlete_id: "2",
         name: "Lana", 
         surname: "SPIRELJA", 
         age: "18 years 7 months 26 days", 
@@ -22,6 +24,7 @@ var users = [
         athlete_img: "../IMAGES/ATHLETES-IMGS/issf-athlete-lana-spirelja.PNG"
     },
     {  
+        athlete_id: "3",
         name: "Alessandra", 
         surname: "FAIT", 
         age: "19 years 10 months 2 days", 
@@ -33,6 +36,7 @@ var users = [
         athlete_img: "../IMAGES/ATHLETES-IMGS/issf-athlete-manja-slak.jfif"
     },
     {  
+        athlete_id: "4",
         name: "Anna", 
         surname: "CUKUSIC", 
         age: "17 years 6 months 1 days", 
