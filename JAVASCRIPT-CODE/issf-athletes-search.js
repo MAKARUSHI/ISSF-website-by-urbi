@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 // Add other athlete details
                 resultElement.textContent += result.surname + " " + result.name + " (" + result.nationality + ")";
-                resultElement.addEventListener("click", function() {
+                resultElement.addEventListener("click", function() {ff
                     // Redirect to a different page with the athlete's ID as a query parameter
                     window.location.href = "athlete_details.html?id=" + result.id;
                 });

@@ -51,7 +51,7 @@ img.follow_youku {
 span.follow_icons_style {
     position: absolute;
     right: 0;
-    margin: -1490px 205px 0px 0px;
+    margin: -1490px 118px 0px 0px;
     background-color: rgb(200, 234, 234);
     padding: 25px 30px 233px 10px;
 }
@@ -362,19 +362,19 @@ p.contact_bottom_text {
 
 img.contact_page_follow_facebook {
     position: absolute;
-    margin: -5px 0 0 607px;
-    width: 35px;
+    margin: -5px 0 0 612px;
+    width: 30px;
 }
 
 img.contact_page_follow_twitter {
     position: absolute;
-    margin: -15px 0 0 650px;
-    width: 57px;
+    margin: -3px 0 0 663px;
+    width: 33px;
 }
 
 img.contact_page_follow_instagram {
     position: absolute;
-    margin: -4px 0 0 715px;
+    margin: -5px 0 0 715px;
     width: 35px;
 }
 

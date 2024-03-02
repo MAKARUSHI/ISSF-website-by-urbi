@@ -210,8 +210,8 @@ span.athlete_stats {
 }
 
 
-/*bottom navigation bar
-bottom navigation bar*/
+/*bottom navigation bar*/
+/*bottom navigation bar*/
 
 div.issf_partners_style {
     margin: 800px 0 0 0;
@@ -337,19 +337,19 @@ p.contact_bottom_text {
 
 img.contact_page_follow_facebook {
     position: absolute;
-    margin: -5px 0 0 607px;
-    width: 35px;
+    margin: -5px 0 0 612px;
+    width: 30px;
 }
 
 img.contact_page_follow_twitter {
     position: absolute;
-    margin: -15px 0 0 650px;
-    width: 57px;
+    margin: -3px 0 0 663px;
+    width: 33px;
 }
 
 img.contact_page_follow_instagram {
     position: absolute;
-    margin: -4px 0 0 715px;
+    margin: -5px 0 0 715px;
     width: 35px;
 }
 

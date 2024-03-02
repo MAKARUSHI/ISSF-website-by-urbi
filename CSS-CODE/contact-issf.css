@@ -90,7 +90,7 @@ ul.navbar_dropdown {
     margin-top: 0px;
     margin-left: -10px;
     background-color: #FFF;
-    width: 62.4%;
+    width: 70.3%;
     padding: 0 62px 15px 20px;
     display: none;
     list-style: none;
@@ -288,19 +288,19 @@ p.contact_bottom_text {
 
 img.contact_page_follow_facebook {
     position: absolute;
-    margin: -5px 0 0 607px;
-    width: 35px;
+    margin: -5px 0 0 612px;
+    width: 30px;
 }
 
 img.contact_page_follow_twitter {
     position: absolute;
-    margin: -15px 0 0 650px;
-    width: 57px;
+    margin: -3px 0 0 663px;
+    width: 33px;
 }
 
 img.contact_page_follow_instagram {
     position: absolute;
-    margin: -4px 0 0 715px;
+    margin: -5px 0 0 715px;
     width: 35px;
 }
 
